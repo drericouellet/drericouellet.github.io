@@ -1,44 +1,74 @@
 body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    margin: 0;
-    padding: 0;
-    color: #333;
+  font-family: 'Arial', sans-serif;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 40px 20px;
 }
 
 header {
-    text-align: center;
-    padding: 50px 20px;
-    background-color: #f4f4f4;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5em;
+}
+
+header p {
+  font-size: 1.2em;
+  color: #555;
+}
+
+.profile {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.about {
+  flex: 2;
+  min-width: 300px;
+}
+
+.details {
+  flex: 1;
+  min-width: 250px;
+  text-align: center;
 }
 
 .profile-photo {
-    width: 150px;
-    border-radius: 50%;
-    margin-bottom: 20px;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 20px;
 }
 
-h1 {
-    margin: 0;
+.details ul {
+  list-style: none;
+  padding: 0;
+  text-align: left;
 }
 
-h2 {
-    color: #1a73e8;
+.details li {
+  margin: 10px 0;
 }
 
-main {
-    max-width: 800px;
-    margin: 20px auto;
-    padding: 0 20px;
+.links a {
+  display: inline-block;
+  margin: 10px 5px;
+  text-decoration: none;
+  color: #1a73e8;
 }
 
-ul {
-    list-style-type: disc;
-    padding-left: 20px;
-}
-
-footer {
-    text-align: center;
-    padding: 20px;
-    background-color: #f4f4f4;
+.links a:hover {
+  text-decoration: underline;
 }
