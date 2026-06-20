@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eric Ouellet | Senior Scientist</title>
+    <meta name="description" content="Professional landing page and research hub for Eric Ouellet, Senior Scientist at STEMCELL Technologies.">
+
+    <!-- JSON-LD Schema Markup for Google Knowledge Graph Resolution -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Eric Ouellet",
+      "jobTitle": "Senior Scientist",
+      "worksFor": {
+        "@type": "Organization",
+        "name": "STEMCELL Technologies",
+        "url": "https://www.stemcell.com"
+      },
+      "image": "https://drericouellet.github.io/headshot.jpg",
+      "url": "https://drericouellet.github.io",
+      "sameAs": [
+        "https://ca.linkedin.com/in/ericouellet",
+        "https://orcid.org/0009-0008-1449-604X",
+        "https://scholar.google.com/citations?user=w7S37DcAAAAJ",
+        "https://www.researchgate.net/profile/Eric-Ouellet-8"
+      ]
+    }
+    </script>
+
+    <style>
+        :root {
+            --bg-color: #fafafa;
+            --card-bg: #ffffff;
+            --text-main: #2d3748;
+            --text-muted: #718096;
+            --accent: #2b6cb0;
+            --accent-hover: #1a4373;
+            --border: #e2e8f0;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-main);
+            line-height: 1.6;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            background: var(--card-bg);
+            max-width: 540px;
+            width: 100%;
+            border-radius: 16px;
+            padding: 40px;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -1px rgba(0, 0, 0, 0.03);
+            border: 1px solid var(--border);
+            text-align: center;
+        }
+
+        .profile-img {
+            width: 160px;
+            height: 160px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 24px;
+            border: 3px solid var(--border);
+            box-shadow: 0 2px 4px rgba(0,0,0,0.02);
+        }
+
+        h1 {
+            font-size: 1.85rem;
+            font-weight: 700;
+            color: #1a202c;
+            margin-bottom: 6px;
+            letter-spacing: -0.5px;
+        }
+
+        .headline {
+            font-size: 1.1rem;
+            color: var(--accent);
+            font-weight: 500;
+            margin-bottom: 8px;
+        }
+
+        .institution {
+            font-size: 0.95rem;
+            color: var(--text-muted);
+            margin-bottom: 24px;
+        }
+
+        hr {
+            border: 0;
+            border-top: 1px solid var(--border);
+            margin-bottom: 24px;
+        }
+
+        .bio {
+            font-size: 0.975rem;
+            color: var(--text-main);
+            text-align: left;
+            margin-bottom: 32px;
+        }
+
+        .links-title {
+            font-size: 0.8rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: var(--text-muted);
+            margin-bottom: 12px;
+            text-align: left;
+            font-weight: 600;
+        }
+
+        .nav-links {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+            gap: 12px;
+        }
+
+        .nav-links a {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 10px 16px;
+            background-color: var(--card-bg);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            color: var(--text-main);
+            text-decoration: none;
+            font-size: 0.9rem;
+            font-weight: 500;
+            transition: all 0.2s ease;
+        }
+
+        .nav-links a:hover {
+            border-color: var(--accent);
+            color: var(--accent);
+            background-color: #f7fafc;
+            transform: translateY(-1px);
+        }
+
+        @media (max-width: 480px) {
+            .container {
+                padding: 24px;
+            }
+            .nav-links {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <!-- Authority Image File -->
+    <img src="headshot.jpg" alt="Eric Ouellet Headshot" class="profile-img">
+    
+    <h1>Eric Ouellet</h1>
+    <p class="headline">Senior Scientist</p>
+    <p class="institution">STEMCELL Technologies</p>
+    
+    <hr>
+    
+    <p class="bio">
+        Welcome to my verified professional directory. This centralized, open-access page serves as an authoritative anchor node linking my research history, industry background, and digital credentials across public indexing networks.
+    </p>
+    
+    <p class="links-title">Verified Profiles</p>
+    <nav class="nav-links">
+        <a href="https://ca.linkedin.com/in/ericouellet" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="https://orcid.org/0009-0008-1449-604X" target="_blank" rel="noopener">ORCID</a>
+        <a href="https://scholar.google.com/citations?user=w7S37DcAAAAJ" target="_blank" rel="noopener">Google Scholar</a>
+        <a href="https://www.researchgate.net/profile/Eric-Ouellet-8" target="_blank" rel="noopener">ResearchGate</a>
+    </nav>
+</div>
+
+</body>
+</html>
