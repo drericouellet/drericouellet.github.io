@@ -8,108 +8,115 @@
 
     <!-- JSON-LD Schema -->
 
-    <script type="application/ld+json">
+<script type="application/ld+json">
 {
   "@context": "https://schema.org",
-    "@type": "Person",
-    "name": "Eric Ouellet",
-    "honorificSuffix": "PhD",
-    "jobTitle": "Senior Scientist",
-    "gender": "Male",
-    "nationality": {
-    "@type": "Country",
-    "name": "Canada"
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://drericouellet.github.io/#person",
+      "name": "Eric Ouellet",
+      "honorificSuffix": "PhD",
+      "jobTitle": "Senior Scientist",
+      "gender": "Male",
+      "nationality": {
+        "@type": "Country",
+        "name": "Canada"
       },
-    "description": "Canadian biotechnology scientist leading research and development for non-viral intracellular delivery platforms at STEMCELL Technologies.",
-    "image": "https://drericouellet.github.io/eric-ouellet-biotechnology-scientist.jpeg",
-    "url": "https://drericouellet.github.io",
-  
-  "worksFor": {
-    "@type": "Organization",
-    "name": "STEMCELL Technologies",
-    "url": "https://www.stemcell.com"
-  },
- "alumniOf": [
-      {
-        "@type": "EducationalOrganization",
-        "name": "University of British Columbia",
-        "sameAs": "https://www.wikidata.org/wiki/Q391028"
+      "description": "Canadian biotechnology scientist leading research and development for non-viral intracellular delivery platforms at STEMCELL Technologies.",
+      "image": "https://drericouellet.github.io/eric-ouellet-biotechnology-scientist.jpeg",
+      "url": "https://drericouellet.github.io",
+      "worksFor": {
+        "@type": "Organization",
+        "name": "STEMCELL Technologies",
+        "url": "https://www.stemcell.com"
       },
-      {
-        "@type": "EducationalOrganization",
-        "name": "University of Ottawa",
-        "sameAs": "https://www.wikidata.org/wiki/Q627969"
-      }
-    ],
-  "knowsAbout": [
-    "https://en.wikipedia.org/wiki/Intracellular_delivery",
-    "Biotechnology",
-    "Cell Engineering",
-    "Non-viral intracellular delivery",
-    "Microfluidics",
-    "Transfection",
-    "Mechanoporation",
+      "alumniOf": [
+        {
+          "@type": "EducationalOrganization",
+          "name": "University of British Columbia",
+          "sameAs": "https://www.wikidata.org/wiki/Q391028"
+        },
+        {
+          "@type": "EducationalOrganization",
+          "name": "University of Ottawa",
+          "sameAs": "https://www.wikidata.org/wiki/Q627969"
+        }
+      ],
+      "knowsAbout": [
+        "https://en.wikipedia.org/wiki/Intracellular_delivery",
+        "Biotechnology",
+        "Cell Engineering",
+        "Non-viral intracellular delivery",
+        "Microfluidics",
+        "Transfection",
+        "Mechanoporation",
         {
         "@type": "DefinedTerm",
         "name": "CellPore™ Transfection System", 
         "url": "https://www.stemcell.com/products/cellpore-transfection-system.html"
         },
-    "Gene Editing",
-    "CRISPR-Cas9",
-    "mRNA delivery"
-  ],
-  "sameAs": [
-    "https://drericouellet.github.io/",
-    "https://www.researchgate.net/profile/Eric-Ouellet-8",
-    "https://scholar.google.com/citations?user=w7S37DcAAAAJ",
-    "https://scholar.google.com/citations?user=z6fIclgAAAAJ",
-    "https://www.wikidata.org/wiki/Q133364190",
-    "https://www.researchgate.net/profile/Eric-Ouellet-8",
-    "https://orcid.org/0009-0008-1449-604X"
-  ],
-  "@reverse": {
-    "creator": [
-      {
-        "@type": "CreativeWork",
-        "name": "Compositions for Transfecting Resistant Cell Types",
-        "description": "Patent application for advanced non-viral transfection formulations and intracellular delivery systems.",
-        "identifier": "US11572575B2",
-        "url": "https://patents.google.com/patent/US11572575B2/en"
-      },
-      {
-        "@type": "CreativeWork",
-        "name": "Compositions, systems and methods for stimulating cells",
-        "description": "Patent application for advanced formulations for immune cell activation",
-        "identifier": "US18/012,557",
-        "url": "https://patents.google.com/patent/US20230250194A1/en"
-      },
-      {
-        "@type": "CreativeWork",
-        "name": "CellPore™ Transfection System",
-        "description": "Proprietary microfluidic cell-squeezing mechanoporation platform engineered for high-efficiency intracellular delivery.",
-        "url": "https://www.stemcell.com/products/cellpore-transfection-system.html"
-      }
-    ]
-  },
-  "knows": [
+        "Gene Editing",
+        "CRISPR-Cas9",
+        "mRNA delivery"
+      ],
+      "sameAs": [
+        "https://drericouellet.github.io/",
+        "https://www.researchgate.net/profile/Eric-Ouellet-8",
+        "https://scholar.google.com/citations?user=w7S37DcAAAAJ",
+        "https://scholar.google.com/citations?user=z6fIclgAAAAJ",
+        "https://www.wikidata.org/wiki/Q133364190",
+        "https://orcid.org/0009-0008-1449-604X"
+      ],
+      "knows": [
+        {
+          "@type": "Person",
+          "name": "Armon Sharei",
+          "jobTitle": "Founder & CEO",
+          "sameAs": [
+            "https://www.linkedin.com/in/armonsharei/",
+            "https://www.weforum.org/people/armon-sharei/"
+          ]
+        }
+      ],
+      "subjectOf": [
+        {
+          "@type": "VideoObject",
+          "name": "Cutting-Edge Tools for Hematopoietic Stem & Progenitor Cell Research",
+          "description": "In this workshop STEMCELL scientists Eric Ouellet and Tim Le Fevre share some latest tools and technologies for hematopoietic stem and progenitor cell research.",
+          "url": "https://www.youtube.com/watch?v=7XGizg4FJvQ",
+          "thumbnailUrl": "https://img.youtube.com/vi/7XGizg4FJvQ/maxresdefault.jpg"
+        }
+      ]
+    },
     {
-    "@type": "Person",
-    "name": "Armon Sharei",
-    "jobTitle": "Founder & CEO",
-    "sameAs": [
-        "https://www.linkedin.com/in/armonsharei/",
-        "https://www.weforum.org/people/armon-sharei/"
-    ]
-  }
-  ], 
-  "SubjectOf": [
-      {
-        "@type": "VideoObject",
-        "name": "Cutting-Edge Tools for Hematopoietic Stem & Progenitor Cell Research",
-        "Description": "In this workshop STEMCELL scientists Eric Ouellet and Tim Le Fevre share some latest tools and technologies for hematopoietic stem and progenitor cell research.",
-        "url": "https://www.youtube.com/watch?v=7XGizg4FJvQ", 
-        "thumbnailUrl": "https://img.youtube.com/vi/7XGizg4FJvQ/maxresdefault.jpg" 
+      "@type": "CreativeWork",
+      "name": "Compositions for Transfecting Resistant Cell Types",
+      "description": "Patent application for advanced non-viral transfection formulations and intracellular delivery systems.",
+      "identifier": "US11572575B2",
+      "url": "https://patents.google.com/patent/US11572575B2/en",
+      "inventor": {
+        "@id": "https://drericouellet.github.io/#person"
       }
+    },
+    {
+      "@type": "CreativeWork",
+      "name": "Compositions, systems and methods for stimulating cells",
+      "description": "Patent application for advanced formulations for immune cell activation",
+      "identifier": "US18/012,557",
+      "url": "https://patents.google.com/patent/US20230250194A1/en",
+      "inventor": {
+        "@id": "https://drericouellet.github.io/#person"
+      }
+    },
+    {
+      "@type": "CreativeWork",
+      "name": "CellPore™ Transfection System",
+      "description": "Microfluidic cell-squeezing mechanoporation platform engineered for high-efficiency intracellular delivery.",
+      "inventor": {
+        "@id": "https://drericouellet.github.io/#person"
+      }
+    }
   ]
 }
 </script>
